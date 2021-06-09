@@ -33,13 +33,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk 
+		<!-- https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-ui -->
 		<dependency>
-		    <groupId>com.amazonaws</groupId>
-		    <artifactId>aws-java-sdk</artifactId>
-		    <version>1.11.1017</version>
-		</dependency> -->
-		<!-- https://mvnrepository.com/artifact/software.amazon.awssdk/protocol-core -->
+		    <groupId>org.springdoc</groupId>
+		    <artifactId>springdoc-openapi-ui</artifactId>
+		    <version>1.5.9</version>
+		</dependency>
 		<dependency>
 		    <groupId>software.amazon.awssdk</groupId>
 		    <artifactId>ses</artifactId>

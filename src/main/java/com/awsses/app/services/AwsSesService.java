@@ -84,7 +84,7 @@ public class AwsSesService {
 
 	/**
 	 * Método que envía un email en base a un template
-	 * @return templatedEmailResult
+	 * @return string
 	 */
 	public String sendEmailFromTemplate() {
 
@@ -112,5 +112,10 @@ public class AwsSesService {
 			return e.getMessage();
 		}
 
+	}
+	
+	
+	public String saludo() {
+		return "hola mundo cruel";
 	}
 }
